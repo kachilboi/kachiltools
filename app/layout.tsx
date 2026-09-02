@@ -74,14 +74,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        {children}
+      <head>
         <Script
           async
           crossOrigin="anonymous"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755514133196879"
-          strategy="afterInteractive"
         />
+      </head>
+      <body className="antialiased">
+        {children}
       </body>
     </html>
   );
