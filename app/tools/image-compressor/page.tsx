@@ -1,26 +1,35 @@
-// app/tools/image-compressor/page.tsx
 import { Metadata } from 'next';
 import ImageCompressorClient from './ImageCompressorClient';
 
 export const metadata: Metadata = {
-  title: 'Free Image Compressor Online',
+  title: 'Free Online Image Compressor - Reduce Image Size',
   description:
-    'Compress JPG, PNG, and WebP images directly in your browser with KachilTools. Fast and easy image size reduction.',
+    'Compress JPG, PNG, and WebP images online for free. Reduce image file size instantly right in your browser with complete privacy and fast processing.',
+  keywords: [
+    'image compressor online',
+    'compress image online',
+    'reduce image size',
+    'compress JPG',
+    'compress PNG',
+    'compress WebP',
+    'image size reducer',
+    'free image compressor',
+  ],
   alternates: {
     canonical: 'https://kachiltools.vercel.app/tools/image-compressor',
   },
   openGraph: {
-    title: 'Free Image Compressor Online | KachilTools',
+    title: 'Free Online Image Compressor - Reduce Image Size | KachilTools',
     description:
-      'Compress JPG, PNG, and WebP images directly in your browser with KachilTools.',
+      'Compress JPG, PNG, and WebP images online for free. Reduce image file size instantly right in your browser.',
     url: 'https://kachiltools.vercel.app/tools/image-compressor',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Image Compressor Online | KachilTools',
+    title: 'Free Online Image Compressor - Reduce Image Size | KachilTools',
     description:
-      'Compress JPG, PNG, and WebP images directly in your browser with KachilTools.',
+      'Compress JPG, PNG, and WebP images online for free. Reduce image file size instantly right in your browser.',
   },
   robots: {
     index: true,
