@@ -9,23 +9,29 @@ export const metadata: Metadata = {
     template: '%s | KachilTools',
   },
   description:
-    'Free online browser tools for image compression, resizing, PDF merging, text counting, password generation, color picking, and QR codes. Fast, private, and client-side.',
+    'Explore free online browser tools on KachilTools. Easily compress and resize images, merge PDFs, count words, generate secure passwords, pick colors, and create QR codes instantly with no installation required.',
   applicationName: 'KachilTools',
   authors: [{ name: 'KachilTools' }],
   generator: 'Next.js',
   keywords: [
     'free online tools',
-    'online image tools',
+    'free online tools website',
+    'online tools',
+    'browser tools',
+    'free browser tools',
+    'image tools',
+    'PDF tools',
+    'text tools',
     'image compressor',
     'image resizer',
     'image converter',
-    'PDF tools',
     'PDF merger',
+    'PDF to JPG',
+    'text to PDF',
     'word counter',
     'password generator',
-    'QR code generator',
     'color picker',
-    'browser utilities',
+    'QR code generator',
   ],
   category: 'Utilities',
   referrer: 'origin-when-cross-origin',
@@ -46,13 +52,13 @@ export const metadata: Metadata = {
     siteName: 'KachilTools',
     title: 'KachilTools | Free Online Browser Tools for Images, PDFs & Text',
     description:
-      'Free online browser tools for image compression, resizing, PDF utilities, text counting, and code generation. Fast, private, and runs entirely in your browser.',
+      'Explore free online browser tools on KachilTools for image processing, PDF utilities, text counting, secure passwords, and QR codes. Fast, private, and runs directly in your browser.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'KachilTools | Free Online Browser Tools',
     description:
-      'Free online browser tools for images, PDFs, text utilities, and code generation. Fast, private, and runs entirely in your browser.',
+      'Explore free online browser tools on KachilTools for image processing, PDF utilities, text counting, secure passwords, and QR codes.',
   },
   robots: {
     index: true,
@@ -75,7 +81,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="qDLCv3uhtDG5lU2VdZjhZ_I8FTYZnxu5Ez7OU0sp5Tw" />
+        <meta
+          name="google-site-verification"
+          content="qDLCv3uhtDG5lU2VdZjhZ_I8FTYZnxu5Ez7OU0sp5Tw"
+        />
         <Script
           async
           crossOrigin="anonymous"
